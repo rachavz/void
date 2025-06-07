@@ -308,6 +308,9 @@ import './contrib/snippets/browser/snippets.contribution.js';
 // Formatter Help
 import './contrib/format/browser/format.contribution.js';
 
+// Inline Input
+import './contrib/inlineInput/browser/inlineInput.contribution.js';
+
 // Folding
 import './contrib/folding/browser/folding.contribution.js';
 

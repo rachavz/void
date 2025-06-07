@@ -1,0 +1,32 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.monaco-editor .zone-widget .inline-input-container {
+	padding: 8px 12px;
+	display: flex;
+	align-items: center;
+}
+
+.monaco-editor .zone-widget .inline-input {
+	flex: 1;
+	padding: 4px 8px;
+	border-radius: 3px;
+	outline: none;
+	font-family: var(--monaco-monospace-font);
+	font-size: 13px;
+	line-height: 18px;
+	min-height: 18px;
+	box-sizing: border-box;
+}
+
+.monaco-editor .zone-widget .inline-input:focus {
+	border-color: var(--focus-border-color) !important;
+	box-shadow: 0 0 0 1px var(--focus-border-color);
+}
+
+.monaco-editor .zone-widget.inline-input-zone-widget {
+	border-radius: 6px;
+	overflow: hidden;
+}
